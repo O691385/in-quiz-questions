@@ -414,3 +414,39 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [] WITH (SELECT id FROM users) as cte SELECT ...
 - [] WITH cte as (SELECT id FROM users), SELECT ...
 - [x] WITH cte as (SELECT id FROM users) SELECT ...
+
+#### Q57. Which statement is not usually used for database administration?
+- [] SHOW COLUMNS FROM tb1
+- [] SELECT column FROM tb1
+- [] USE db
+- [] SHOW TABLES
+
+#### Q58. What is the equivalent of the mysqladmin reload command?
+- [] mysqladmin  flush-threads
+- [] mysqladmin flush-privileges
+- [] mysqladmin flush-all
+- [] mysqladmin flush-tables
+
+#### Q59. When working with MYSQL cursor, what must you also declare?
+- [] DEFAULT value
+- [] RETURN variable
+- [] SQLEXCEPTION routine
+- [] NOT FOUND handler
+
+#### Q60. You are loading data into a table. Which command can you use to make sure that all data is inserted and duplicated rows are discarded?
+- [] INSERT INTO
+- [] INSERT DISTINCT
+- [] INSERT IGNORE
+- [] INSERT UNIQUE
+
+#### Q61. What is the product of the database designing phase?
+- [] a list of entities, their relationship, constraints, data types, and cardinalities
+- [] all tables, columns, data types, indexes and their relationships
+- [] a list of entities, their relationship, and constraints
+- [] all tables and their anmes, which are needed to implement the logical model
+
+#### Q62. Which statement about the TRUNCATE TABLE statement is true?
+- [] It will stop and issue an error when it encounters a row that is referenced by a row in a child table
+- [] It always first drops, then re-creates a new table
+- [] It does not invoke the DELETE triggers associated with the table
+- [] It deletes rows one by one on tables with foreign key constraints
